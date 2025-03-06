@@ -20,7 +20,6 @@ main {
 }
 
 .form {
-  width: 90%;
   background: linear-gradient(to bottom, #ad1289, #1f0018);
   border-radius: 0.5rem;
   padding: 0.8rem 2rem 1rem 2rem;
@@ -81,3 +80,9 @@ main {
   text-align: center;
   margin-top: 0.5rem;
 }
+
+/* 
+Não Precisei alterar nada para criar a versão responsiva ao meu ver
+o layout esta se comportando muito bem da maneira como foi escrita
+por tanto estou fazendo este comentário apenas a título de esclarecimento.
+*/
