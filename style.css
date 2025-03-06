@@ -7,6 +7,7 @@ main {
   max-width: 40rem;
   border-radius: 0.5rem;
   padding: 2rem 2rem 0.8rem 2rem;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 .header {
@@ -23,6 +24,7 @@ main {
   background: linear-gradient(to bottom, #ad1289, #1f0018);
   border-radius: 0.5rem;
   padding: 0.8rem 2rem 1rem 2rem;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.3);
 }
 
 .form-input {
@@ -73,6 +75,12 @@ main {
   color: #fff;
   border: none;
   border-radius: 0.3rem;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #251515;
 }
 
 .footer {
