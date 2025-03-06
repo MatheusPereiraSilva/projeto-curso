@@ -4,9 +4,9 @@ body {
 }
 main {
   background: linear-gradient(to bottom, #1f0018, #ad1289);
-  width: 40rem;
+  max-width: 40rem;
   border-radius: 0.5rem;
-  padding: 2rem;
+  padding: 2rem 2rem 0.8rem 2rem;
 }
 
 .header {
@@ -20,11 +20,10 @@ main {
 }
 
 .form {
-  width: 36rem;
+  width: 90%;
   background: linear-gradient(to bottom, #ad1289, #1f0018);
   border-radius: 0.5rem;
   padding: 0.8rem 2rem 1rem 2rem;
-  margin: auto;
 }
 
 .form-input {
@@ -40,7 +39,7 @@ main {
 }
 
 .form-input input {
-  width: 30rem;
+  width: 80%;
   margin-bottom: 1rem;
   padding: 0.3rem;
   border-radius: 0.3rem;
@@ -75,4 +74,10 @@ main {
   color: #fff;
   border: none;
   border-radius: 0.3rem;
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 0.5rem;
 }
