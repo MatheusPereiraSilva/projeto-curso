@@ -1,0 +1,20 @@
+body {
+  display: grid;
+  place-items: center;
+}
+main {
+  background: linear-gradient(to bottom, #1f0018, #66014e);
+  width: 40rem;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+}
+
+.header h1 {
+  color: #f0ba08;
+  text-transform: uppercase;
+}
