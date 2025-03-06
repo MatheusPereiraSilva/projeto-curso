@@ -3,7 +3,7 @@ body {
   place-items: center;
 }
 main {
-  background: linear-gradient(to bottom, #1f0018, #66014e);
+  background: linear-gradient(to bottom, #1f0018, #ad1289);
   width: 40rem;
   border-radius: 0.5rem;
   padding: 2rem;
@@ -17,4 +17,32 @@ main {
 .header h1 {
   color: #f0ba08;
   text-transform: uppercase;
+}
+
+.form {
+  width: 36rem;
+  background: linear-gradient(to bottom, #ad1289, #1f0018);
+  border-radius: 0.5rem;
+  padding: 0.8rem 2rem 1rem 2rem;
+  margin: auto;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input h2 {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.form-input input {
+  width: 30rem;
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  outline: none;
+  border: none;
 }
